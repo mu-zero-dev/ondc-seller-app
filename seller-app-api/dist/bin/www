@@ -20,14 +20,13 @@ var bootstrapData = require('../lib/bootstrap').default;
  * Get port from environment and store in Express.
  */
 
-console.log("came in www 1......")
 var port = normalizePort(process.env.PORT || config.get("express").port || '3000');
 app.set('port', port);
 
 /**
  * Create HTTP server.
  */
-console.log("came in www createServer......")
+
 var server = http.createServer(app);
 
 /**
@@ -37,7 +36,6 @@ sequelize.sync().then(function () {
      /**
      * Listen on provided port, on all network interfaces.
      */
-     console.log("came in www listen......")
     server.listen(port, function () {
         console.log("Express server listening at: " + config.get("express").apiUrl)
     });

@@ -1,4 +1,5 @@
-import 'regenerator-runtime/runtime.js';
+import regeneratorRuntime from "regenerator-runtime"
+// import 'regenerator-runtime/runtime.js';
 import express from 'express';
 import path from 'path';
 import cors from 'cors';

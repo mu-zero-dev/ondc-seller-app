@@ -2,7 +2,7 @@
   "name": "seller-api",
   "version": "2.0",
   "description": "ONDC",
-  "main": "index.js",
+  "main": "app.js",
   "author": "ONDC",
   "license": "ONDC",
   "scripts": {
@@ -44,7 +44,7 @@
     "pug": "^3.0.2",
     "regenerator-runtime": "^0.13.11",
     "request-promise": "^4.2.6",
-    "sequelize": "^6.32.1",
+    "sequelize": "^5.22.5",
     "uuid": "^9.0.0",
     "winston": "^3.10.0"
   },
